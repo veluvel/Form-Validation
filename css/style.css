@@ -51,10 +51,10 @@ body{
     outline: none;
     border-color: #777;
 }
-.form-control .success input{
+.form-control.success input{
     border-color: green;
 }
-.form-control .error input{
+.form-control.error input{
     border-color: red;
 }
 .form-control i{
@@ -63,11 +63,11 @@ body{
     top: 35px;
     right: 10px;
 }
-.form-control .success i.fa-circle-check{
+.form-control.success i.fa-circle-check{
     color: green;
     visibility: visible;
 }
-.form-control .error i.fa-circle-exclamation{
+.form-control.error i.fa-circle-exclamation{
     color: red;
     visibility: visible;
 }
